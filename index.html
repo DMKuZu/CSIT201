@@ -11,14 +11,26 @@
 
 <body>
     <header>
-        <h1>Food Recipes</h1>
-
-        <!-- put the website title then the accordion style "Filter by" -->
-        <!-- fish,chicken,beef,pork -->
+        <div class="container-fluid">
+            <div class="row align-items-start">
+                <div class="col">
+                    <h1>Food Recipes</h1>
+                </div>
+                <div class="col">
+                    <form>
+                        <label class="filter">Filter by:</label>
+                        <select class="form-select form-select-sm">
+                            <option>Fish</option>
+                            <option>Chicken</option>
+                            <option>Pork</option>
+                            <option>Beef</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+        </div>
     </header>
-    <div class="container">
-        
-    </div>
+    
     <!-- find a way to make it just like choosing from manga to manga -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
